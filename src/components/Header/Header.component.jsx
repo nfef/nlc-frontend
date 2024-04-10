@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/logo-nlc.jpeg'; // 
-import mannequinInternational from '../../assets/images/miss-photo-cameroun.jpg'; // 
+import mannequinInternational from '../../assets/images/mannequin-international.jpeg'; // 
 import './header.scss';
 
 const Header = () => {
@@ -13,12 +13,12 @@ const Header = () => {
             </div>
             <div className="navigation-center">
                 <img src={logo} alt="logo new level generation" height="80" width="80" className='img-fluid img-circle' />
-                <img src={mannequinInternational} alt="logo mannequin photo" height="80" width="80" className='img-fluid img-circle' />
+                <img src={mannequinInternational} alt="logo mannequin photo" height="90" width="90" className='img-fluid img-circle' />
             </div>
             <div className="navigation-right">
 
                 <div className="navigation-title navigation-right-title">
-                    miss photo cameroun
+                    mannequin photo international cameroun
                 </div>
             </div>
 
