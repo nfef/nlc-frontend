@@ -1,0 +1,45 @@
+.navigation {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+
+        img{
+            
+        }
+
+        &-center{
+                display: flex;
+        }
+
+        &-right{
+                @media (max-width:640px) {
+                        margin:0;
+                }
+                margin-left: 10px;
+                &-title{
+                        color: #fff;
+                }
+        }
+        &-left{
+                @media (max-width:640px) {
+                        margin:0;
+                }
+                margin-right: 10px;
+
+                &-title{
+                        color: yellow;
+                }
+        }
+
+        &-title{
+        text-transform: uppercase;
+        font-weight: 600;
+        }
+
+
+}
