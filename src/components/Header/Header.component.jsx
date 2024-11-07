@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/images/logo-nlc.jpeg'; // 
 import mannequinInternational from '../../assets/images/mannequin-international.jpeg'; // 
+import newLogo from '../../assets/images/nlc-logo-new-removebg-preview.png'
 import './header.scss';
 
 const Header = () => {
@@ -8,17 +9,17 @@ const Header = () => {
         <div className='navigation'>
             <div className="navigation-left">
                 <div className="navigation-left-title navigation-title">
-                    new level corporation
+                mannequin photo international
                 </div>
             </div>
             <div className="navigation-center">
-                <img src={logo} alt="logo new level generation" height="80" width="80" className='img-fluid img-circle' />
-                <img src={mannequinInternational} alt="logo mannequin photo" height="90" width="90" className='img-fluid img-circle' />
+                <img src={newLogo} alt="logo new level generation" height="80" width="80" className='img-fluid img-circle' />
+                {/* <img src={mannequinInternational} alt="logo mannequin photo" height="90" width="90" className='img-fluid img-circle' /> */}
             </div>
             <div className="navigation-right">
 
                 <div className="navigation-title navigation-right-title">
-                    mannequin photo international cameroun
+                    miss photo world
                 </div>
             </div>
 
