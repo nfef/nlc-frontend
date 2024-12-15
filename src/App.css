@@ -41,3 +41,45 @@
 .candidat-list{
   margin-top: 100px;
 }
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  min-height: calc(100vh - 60px); /* Ajustez 60px selon la hauteur de votre header */
+  background-color: pink;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Styles spécifiques pour les cartes de candidats */
+.candidat-list {
+  margin-top: 100px;
+}
+
+.candidate-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.candidate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
